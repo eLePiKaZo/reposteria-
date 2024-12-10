@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header.jumbotron {
+    background: url('img/bannerofi.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+/* Productos */
+#productos .card {
+    margin-bottom: 30px;
+}
+
+/* Contacto */
+#contacto {
+    padding: 50px 0;
+}
+
+#contacto form .form-group {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
+/* Carrusel */
+.carousel-item {
+    height: 50vh; /* Ajusta la altura del carrusel */
+    min-height: 250px; /* Asegura que tenga una altura mínima */
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Hace que las imágenes se adapten sin deformarse */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+}
+/* Ajustes del carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de transparencia */
+    padding: 15px;
+    border-radius: 10px;
+    color: white; /* Asegúrate de que el texto sea legible */
+}
+
+/* Ajustes adicionales opcionales para mejorar la apariencia */
+.carousel-caption h5 {
+    font-size: 1.5rem; /* Ajuste del tamaño de la fuente del título */
+}
+
+.carousel-caption p {
+    font-size: 1rem; /* Ajuste del tamaño de la fuente del párrafo */
+}
+/*cambiar color*/
+
+.navbar-nav .nav-link {
+    color: #ffb361 !important; /* Cambia el color de los enlaces */
+    font-family: 'Roboto', sans-serif; /* Cambia el tipo de letra */
+    font-size: 1.2rem; /* Ajusta el tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    padding: 10px 15px; /* Ajusta el espaciado alrededor del texto */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d84315; /* Cambia el color al pasar el ratón */
+    text-decoration: none; /* Elimina la subrayado al pasar el ratón */
+}
